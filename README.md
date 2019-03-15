@@ -1,3 +1,19 @@
+# next-postgres-with-typescript
+This is a fork of the wonderful next-postgres repo by @jimmylee with additional support for Typescript and Now. This should compile successfully as is, but it still relies on many 'any' types.
+
+### Changes
+- Most files in ~/common, ~/components, ~/higher-order, and ~/pages have been converted to .tsx with provisional types.
+
+### Remaining issues
+- IUser, IPost, and IComment need to be defined (currently all 'any')
+- dispatches need to be correctly typed (currently all 'any')
+- ~/higher-order/withData.js needs to converted to Typescript
+- ~/api files need to be converted to Typescript files
+- ~/pages/_document.tsx typing needs to be double-checked
+
+
+---
+
 # next-postgres
 
 This is an example of a full stack web application with...
