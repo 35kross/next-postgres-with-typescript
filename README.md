@@ -12,6 +12,8 @@ This is a fork of the wonderful next-postgres repo by @jimmylee with additional 
 - `~/pages/_document.js` needs to converted to Typescript
 - `~/api` files need to be converted to Typescript files
 
+### Contributions
+Any help is welcome to make this repo more type safe. Feel free to submit PRs!
 
 ---
 
