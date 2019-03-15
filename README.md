@@ -1,5 +1,5 @@
 # next-postgres-with-typescript
-This is a fork of the wonderful next-postgres repo by @jimmylee with additional support for Typescript. This should compile successfully as is, but it still relies on many 'any' types.
+This is a fork of the wonderful next-postgres repo by @jimmylee with additional support for Typescript. This should compile successfully as is, but it still relies on many 'any' types. To use, refer to the Setup instructions below. 
 
 ### Changes
 - Most files in `~/common`, `~/components`, `~/higher-order`, and `~/pages` have been converted to .tsx with provisional types.
