@@ -9,8 +9,8 @@ This is a fork of the wonderful next-postgres repo by @jimmylee with additional 
 - `IUser`, `IPost`, and `IComment` need to be defined (currently all 'any')
 - `dispatch` needs to be correctly typed (currently all 'any')
 - `~/higher-order/withData.js` needs to converted to Typescript
+- `~/pages/_document.tsx` needs to converted to Typescript
 - `~/api` files need to be converted to Typescript files
-- `~/pages/_document.tsx` typing needs to be double-checked
 
 
 ---
