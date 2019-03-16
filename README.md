@@ -1,9 +1,10 @@
 # next-postgres-with-typescript
-This is a fork of the wonderful next-postgres repo by @jimmylee with additional support for Typescript. This should compile successfully as is, but it still relies on many 'any' types. To use, refer to the Setup instructions below. 
+This is a fork of the wonderful next-postgres repo by @jimmylee with additional support for Typescript and Jest. This should compile successfully as is, but it still relies on many 'any' types. To use, refer to the Setup instructions below.
 
 ### Changes
 - Most files in `~/common`, `~/components`, `~/higher-order`, and `~/pages` have been converted to .tsx with provisional types.
-- A `~/data-models` file has been created to keep all common types/interfaces. 
+- A `~/data-models` file has been created to keep all common types/interfaces.
+- Jest and Enzyme are setup to allow for tests (currently only for unconnected, pure components. See issues.).
 
 ### Remaining issues
 - `IUser`, `IPost`, and `IComment` need to be defined (currently all 'any')
@@ -11,6 +12,7 @@ This is a fork of the wonderful next-postgres repo by @jimmylee with additional 
 - `~/higher-order/withData.js` needs to converted to Typescript
 - `~/pages/_document.js` needs to converted to Typescript
 - `~/api` files need to be converted to Typescript files
+- ? Redux and Next Router need to be configured for Jest/Enzyme? Currently fails, likely bc components not connected to Provider/Router.
 
 ### Contributions
 Any help is welcome to make this repo more type safe. Feel free to submit PRs!
